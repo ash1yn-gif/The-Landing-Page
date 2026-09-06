@@ -15,6 +15,11 @@ body {
     gap: 30px;
 }
 
+.header ul a {
+    text-decoration: none;
+    color: white;
+}
+
 @media (max-width: 727px) {
     .container .header {
         display: flex;
@@ -112,7 +117,7 @@ body {
     height: 2em;
     border-radius: 10px;
     margin-top: 10px;
-    border: black;
+    border: none;
     color: white;
     font-size: 15px;
     background-color: #3882F6;
@@ -151,7 +156,7 @@ body {
     width: 120px;
     height: 150px;
     object-fit: cover;
-    border-radius: 12px;;
+    border-radius: 12px;
 }
 
 .sub-container .box {
